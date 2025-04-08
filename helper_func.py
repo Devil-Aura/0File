@@ -12,22 +12,6 @@ from database.database import *
 
 
 
-async def is_subscribed1(filter, client, update):
-    if not FORCE_SUB_CHANNEL1:
-        return True
-    user_id = update.from_user.id
-    if user_id in ADMINS:
-        return True
-    try:
-        member = await client.get_chat_member(chat_id = FORCE_SUB_CHANNEL1, user_id = user_id)
-    except UserNotParticipant:
-        return False
-
-    if not member.status in [ChatMemberStatus.OWNER, ChatMemberStatus.ADMINISTRATOR, ChatMemberStatus.MEMBER]:
-        return False
-    else:
-        return True
-
 async def is_subscribed2(filter, client, update):
     if not FORCE_SUB_CHANNEL2:
         return True
@@ -186,7 +170,6 @@ def get_exp_time(seconds):
     return result
 
 
-subscribed1 = filters.create(is_subscribed1)
 subscribed2 = filters.create(is_subscribed2)
 subscribed3 = filters.create(is_subscribed3)
 subscribed4 = filters.create(is_subscribed4)
