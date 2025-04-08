@@ -53,7 +53,7 @@ HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏ�
 ABOUT_TXT = "<b><blockquote>◈🤖 My Name :</b> <a href='https://telegra.ph/Crunchy-Roll-Vault-04-08'>Crunchyroll Vault</a>\n◈ Anime Channel : <a href=https://t.me/Crunchyrollchannel>Crunchyroll Channel</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/World_Fastest_Bots>World Fastest Bots</a></blockquote></b>"
 
 
-START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n<blockquote> ɪ ᴀᴍ Crunchyroll Vault ʙᴏᴛ, ɪ Provide Animes Episodes And Full Animes In Hindi Dub,If You Want More Animes Then Join Our Main Channel.</blockquote></b>")
+START_MSG = os.environ.get("START_MESSAGE","""<b>ʜᴇʏ {first}!</b>\n\n<b>ᴍᴇʀᴀ ɴᴀᴀᴍ <u>Crunchyroll Vault</u> ʜᴀɪ, ᴍᴀɪ ᴇᴋ ʙᴏᴛ ʜᴜ.</b>\n<b>ᴍᴀɪ ᴀᴀᴘᴋᴏ ᴀɴɪᴍᴇ ᴇᴘɪꜱᴏᴅᴇꜱ ᴀᴜʀ ᴘᴜʀᴇ ᴀɴɪᴍᴇꜱ ʜɪɴᴅɪ ᴅᴜʙ ᴍᴇɪɴ ᴅᴇᴛᴀ ʜᴜ.</b>\n<b>ᴀɢᴀʀ ᴀᴀᴘᴋᴏ ᴏʀ ᴀɴɪᴍᴇꜱ ᴄᴀʜɪʏᴇ ᴛᴏʜ, ʜᴀᴍᴀʀᴇ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ᴋᴏ ᴊᴏɪɴ ᴋᴀʀᴏ!</b>""")
 try:
     ADMINS=[6376328008]
     for x in (os.environ.get("ADMINS", "5115691197 6273945163 6103092779 5231212075 7328629001").split()):
@@ -62,7 +62,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {first}\n\n<b>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ button ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", """<b>ʀᴏᴋᴏ {first}!</b>\n\n<b>ᴛᴜᴍɴᴇ ᴀʙʜɪ ᴛᴀᴋ ʜᴀᴍᴀʀᴀ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ ᴊᴏɪɴ ɴᴀʜɪɴ ᴋɪʏᴀ ʜᴀɪ!</b>\n<b>ᴀɴɪᴍᴇ ᴋᴇ ᴇᴘɪꜱᴏᴅᴇꜱ ᴀᴜʀ ᴘᴜʀᴇ ᴀɴɪᴍᴇꜱ ʜɪɴᴅɪ ᴍᴇɪɴ ᴅᴇᴋʜɴᴇ ᴋᴇ ʟɪʏᴇ, ᴘᴇʜʟᴇ ʜᴀᴍᴀʀᴇ ᴄʜᴀɴɴᴇʟꜱ ᴊᴏɪɴ ᴋᴀʀɴᴀ ʜᴏɢᴀ।</b>\n<b>ꜱᴀʙ ᴄʜᴀɴɴᴇʟꜱ ᴊᴏɪɴ ᴋᴀʀɴᴇ ᴋᴇ ʙᴀᴀᴅ <code>/start</code> ʟɪᴋʜᴏ ᴀᴜʀ ᴍᴀᴢᴀ ʟᴜᴛᴏ!</b>""")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• ʙʏ @Crunchyrollchannel</b>")
