@@ -50,7 +50,7 @@ TUT_VID = os.environ.get("TUT_VID","0")
 
 HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @CrunchyRollChannel\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ └/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/World_Fastest_Bots>World Fastest Bots™</a></blockquote></b>"
 
-ABOUT_TXT = "<b><blockquote>◈🤖 My Name :<a> href='https://telegra.ph/Crunchy-Roll-Vault-04-08'>Crunchyroll Vault</a>\n◈ Anime Channel : <a href=https://t.me/Crunchyrollchannel>Crunchyroll Channel</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/World_Fastest_Bots>World Fastest Bots</a></blockquote></b>"
+ABOUT_TXT = "<b><blockquote>◈🤖 My Name :<a href='https://telegra.ph/Crunchy-Roll-Vault-04-08'>Crunchyroll Vault</a>\n◈ Anime Channel : <a href=https://t.me/Crunchyrollchannel>Crunchyroll Channel</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/World_Fastest_Bots>World Fastest Bots</a></blockquote></b>"
 
 
 START_MSG = os.environ.get("START_MESSAGE","""<b>ʜᴇʏ {first}!</b>\n\n<b>ᴍᴇʀᴀ ɴᴀᴀᴍ <u>Crunchyroll Vault</u> ʜᴀɪ, ᴍᴀɪ ᴇᴋ ʙᴏᴛ ʜᴜ.</b>\n<b><blockquote>ᴍᴀɪ ᴀᴀᴘᴋᴏ ᴀɴɪᴍᴇ ᴇᴘɪꜱᴏᴅᴇꜱ ᴀᴜʀ ᴘᴜʀᴇ ᴀɴɪᴍᴇꜱ ʜɪɴᴅɪ ᴅᴜʙ ᴍᴇɪɴ ᴅᴇᴛᴀ ʜᴜ.</b>\n<b>ᴀɢᴀʀ ᴀᴀᴘᴋᴏ ᴏʀ ᴀɴɪᴍᴇꜱ ᴄᴀʜɪʏᴇ ᴛᴏʜ, ʜᴀᴍᴀʀᴇ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ᴋᴏ ᴊᴏɪɴ ᴋᴀʀᴏ!<blockquote></b>""")
